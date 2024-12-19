@@ -1,18 +1,18 @@
-#Version
+# Version
 v1.0
 
-#Usage
+# Usage
 This project contains scripts that haven been generated, used or cited in publications of Dedon lab at MIT. Scirpts are generally named by publications or functions.
 
-#Dependencies and environment
+# Dependencies and environment
 sh, python, R
 
-#Help and Issues
+# Help and Issues
 Please contact Yifeng Yuan at biotech.yyf@gmail.com or Michael S. DeMott at msdemott@mit.edu
 
-#Authors
+# Authors
 Yifeng Yuan, Ph.D. (Principal Investigator: Peter C. Dedon)
 Michael S. DeMott, Ph.D. (Principal Investigator: Peter C. Dedon)
 
-#Version History
+# Version History
 v1.0 --2024/12/19 --creation of the project.

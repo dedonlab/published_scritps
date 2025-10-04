@@ -65,21 +65,20 @@ lzma v4.32.7 https://sourceforge.net/projects/lzma/
 
     \# for real PT-seq dataset, we recommond thread >= 10 ; RAM >= 55G.
    
-    ```
-    sh trim.sh demo/demo_1.fastq demo/demo_2.fastq
-    ```
-   'sh main.sh
+    `bash sh trim.sh demo/demo_1.fastq demo/demo_2.fastq`
    
-   'sh pos2seq_R.sh
+   `sh main.sh`
    
-   'sh mergepileup.sh
+   `sh pos2seq_R.sh`
    
-   'sh meme.sh
+   `sh mergepileup.sh`
    
-   'sh motif_stat.sh
+   `sh meme.sh`
    
-   'sh pileup_to_gffClass.sh
+   `sh motif_stat.sh`
    
-   'sh summary_geneClass.sh
+   `sh pileup_to_gffClass.sh`
    
-   'sh gene_class_summary.sh
+   `sh summary_geneClass.sh`
+   
+   `sh gene_class_summary.sh`

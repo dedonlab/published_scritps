@@ -58,8 +58,9 @@ lzma v4.32.7 https://sourceforge.net/projects/lzma/
 
 ## Usage
 1. install the dependences
-2. Download the scripts and the demo data set. Place them in the work directory
-3. Run the scripts in the following order:
+2. Download the scripts and the demo dataset. Place them in the work directory
+3. Keep the demo dataset in work/demo/
+4. Run the scripts in the following order:
    trim.sh
    main.sh
    pos2seq_R.sh

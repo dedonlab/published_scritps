@@ -63,7 +63,8 @@ lzma v4.32.7 https://sourceforge.net/projects/lzma/
 4. Modify trim.sh with ${path_to_your_bbmap}
 5. Run the scripts in the following order:
 
-   \# for real PT-seq dataset, we recommond thread >= 10 ; RAM >= 55G.
+   ** \# for real PT-seq dataset, we recommond thread >= 10 ; RAM >= 55G. **
+   
    sh trim.sh demo/demo_1.fastq demo/demo_2.fastq
    
    sh main.sh

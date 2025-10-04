@@ -61,12 +61,12 @@ lzma v4.32.7 https://sourceforge.net/projects/lzma/
 2. Download the scripts and the demo dataset. Place them in the work directory
 3. Keep the demo dataset in work/demo/
 4. Run the scripts in the following order:
-   trim.sh
-   main.sh
-   pos2seq_R.sh
-   mergepileup.sh
-   meme.sh
-   motif_stat.sh
-   pileup_to_gffClass.sh
-   summary_geneClass.sh
-   gene_class_summary.sh
+   sh trim.sh
+   sh main.sh
+   sh pos2seq_R.sh
+   sh mergepileup.sh
+   sh meme.sh
+   sh motif_stat.sh
+   sh pileup_to_gffClass.sh
+   sh summary_geneClass.sh
+   sh gene_class_summary.sh

@@ -17,8 +17,8 @@ The PTseq pileup analysis pipelien requires only a standard computer with enough
 ## OS Requirements
 This package is supported for macOS and Linux. The package has been tested on the following systems:
 
-macOS: Mojave (10.14.1)
 Linux: Centos 7
+macOS: Mojave (10.14.1)
 
 ## Installation and dependences
 bbmap https://archive.jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/installation-guide/
@@ -57,4 +57,15 @@ xz v5.2.3 https://github.com/tukaani-project/xz/releases
 lzma v4.32.7 https://sourceforge.net/projects/lzma/
 
 ## Usage
-
+1. install the dependences
+2. Download the scripts and the demo data set. Place them in the work directory
+3. Run the scripts in the following order:
+   trim.sh
+   main.sh
+   pos2seq_R.sh
+   mergepileup.sh
+   meme.sh
+   motif_stat.sh
+   pileup_to_gffClass.sh
+   summary_geneClass.sh
+   gene_class_summary.sh

@@ -1,5 +1,6 @@
-## copy right and contact
+## Copy right and Contact
 PI: pcdedon@mit.edu
+
 Author and contact: yfyuan@mit.edu, msdemott@mit.edu
 
 ## Edit log

@@ -46,8 +46,7 @@ threads=10
 
 >&2 echo -e "${readin2} cut done\t\c"
 
-####
-<<'####'
+
 # 2 trim poly(A/T)
 
 # 2.1 trim R1.
@@ -115,13 +114,13 @@ outs=/dev/null \
 overwrite=true repair
 
 ## 5 mask human
+# the reference file is available here: https://www.seqanswers.com/forum/bioinformatics/bioinformatics-aa/37175-introducing-removehuman-human-contaminant-removal?t=42552
 ref_genome=${dir_read}/hg19_main_mask_ribo_animal_allplant_allfungus.fa.gz
 
 # step 1 index ref genome
 bbmap.sh ref=$ref_genome -Xmx20g
 
 # step 2 mask human reads
-# http://seqanswers.com/forums/showthread.php?t=42552
 human1=${dir_read}/${qname}'_R1_human.fq'
 human2=${dir_read}/${qname}'_R2_human.fq'
 clean1=${dir_read}/${qname}'_R1_clean.fq'
@@ -145,7 +144,6 @@ outs=/dev/null \
 overwrite=true minlen=35 repair
 
 # 7 fastqc.
-module add c3ddb/fastqc/0.11.8
+#module add c3ddb/fastqc/0.11.8
 fastqc ${dir_read}/${qname}_R1_final.fastq -o .
 fastqc ${dir_read}/${qname}_R2_final.fastq -o .
-####

@@ -60,8 +60,11 @@ lzma v4.32.7 https://sourceforge.net/projects/lzma/
 1. install the dependences
 2. Download the scripts and the demo dataset. Place them in the work directory
 3. Keep the demo dataset in work/demo/
-4. Run the scripts in the following order:
-   sh trim.sh
+4. Modify trim.sh with ${path_to_your_bbmap}
+5. Run the scripts in the following order:
+
+   \# for real PT-seq dataset, we recommond thread >= 10 ; RAM >= 55G.**
+   sh trim.sh demo/demo_1.fastq demo/demo_2.fastq
    sh main.sh
    sh pos2seq_R.sh
    sh mergepileup.sh
